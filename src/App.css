@@ -67,7 +67,7 @@ body {
   background-image: linear-gradient(
       to right bottom,
       rgba(126, 213, 111, 0.85),
-      rgba(40, 180, 133, 0.85)
+      rgba(170, 150, 39, 0.85)
     ),
     url(../public/img/hero.jpg);
   background-size: cover;
@@ -91,12 +91,14 @@ body {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .heading-primary {
   color: white;
   text-transform: uppercase;
   backface-visibility: hidden;
+  margin-bottom: 60px;
 }
 
 .heading-primary--main {
@@ -117,9 +119,55 @@ body {
   animation: moveInRight 2s ease-out;
 }
 
-.btn:link{
-
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 50px;
+  transition: all 0.2s;
+  position: relative;
 }
 
+.btn--white {
+  background-color: white;
+  color: #777;
+}
 
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
 
+.btn:active {
+  transform: translateY(-1px);
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.btn--white::after {
+  background-color: white;
+}
+
+.btn:hover::after{
+  transform:scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn--animated{
+  animation: moveInBottom .5s ease-out .75s;
+  animation-fill-mode: backwards;
+
+}
