@@ -12,7 +12,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "compile:sass" : "node-sass ./src/styles/sass/main.scss ./src/styles/css/style.css -w",
+    "compile:sass": "node-sass ./src/styles/sass/main.scss .src/styles/css/style.css -w",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
