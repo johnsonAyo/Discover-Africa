@@ -12,7 +12,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "compile:sass" : "node-sass ./src/styles/sass/main.scss ./src/styles/css/style.css -w",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,7 +35,9 @@
       "last 1 safari version"
     ]
   },
+  "proxy": "http://localhost:3000/",
   "devDependencies": {
-    "node-sass": "^7.0.1"
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11"
   }
 }
