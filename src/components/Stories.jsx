@@ -3,8 +3,8 @@ function Stories() {
     <section className="section-stories">
       <div className="bg-video">
         <video className="bg-video__content" autoPlay muted loop>
-          <source src="./../styles/img/video2.mp4" type="video/mp4" />
-          <source src="./../styles/img/video2.mp4" type="video/webm" />
+          <source src="img/video2.mp4" type="video/mp4" />
+          <source src="img/video2.webm" type="video/webm" />
           Your browser is not supported!
         </video>
       </div>
@@ -17,7 +17,7 @@ function Stories() {
         <div className="story">
           <figure className="story__shape">
             <img
-              src="/img/nat-8.jpg"
+              src="img/nat-8.jpg"
               alt="Person on a tour"
               className="story__img"
             />
@@ -43,7 +43,7 @@ function Stories() {
         <div className="story">
           <figure className="story__shape">
             <img
-              src="/img/nat-9.jpg"
+              src="img/nat-9.jpg"
               alt="Person on a tour"
               className="story__img"
             />
