@@ -1,7 +1,9 @@
+import Navigation from "./../components/Navigation";
 function Header() {
   return (
     <div>
       <title>Travel stories | Document your Memories</title>
+      <Navigation />
 
       <header className="header">
         <div className="header__logo-box">
