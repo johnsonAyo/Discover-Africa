@@ -15,7 +15,7 @@
   "scripts": {
     "compile:sass" : "node-sass ./src/styles/sass/main.scss ./src/styles/css/style.css -w",
     "start": "react-scripts start",
-    "build": "CI= npm build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
