@@ -1,4 +1,5 @@
 import Navigation from "./../components/Navigation";
+import Logo from "./../components/Logo";
 function Header() {
   return (
     <div>
@@ -6,13 +7,11 @@ function Header() {
       <Navigation />
 
       <header className="header">
-        <div className="header__logo-box">
-          <img src="img/logo1.png" alt="Logo" className="header__logo" />
-        </div>
+        <Logo />
 
         <div className="header__text-box">
           <h1 className="heading-primary">
-            <span className="heading-primary--main">Travel Stories</span>
+            <span className="heading-primary--main">Travel Experience</span>
             <span className="heading-primary--sub">
               Document your Adventures
             </span>

@@ -1,6 +1,9 @@
+import Navigation from "./../components/Navigation"
+import Footer from "./../components/Footer"
 function Register() {
   return (
-    <section class="section-book">
+    <><section class="section-book">
+      <Navigation />
       <div class="row">
         <div class="book">
           <div class="book__form">
@@ -15,8 +18,7 @@ function Register() {
                   class="form__input"
                   placeholder="Full name"
                   id="name"
-                  required
-                />
+                  required />
                 <label for="name" class="form__label">
                   Full name
                 </label>
@@ -28,8 +30,7 @@ function Register() {
                   class="form__input"
                   placeholder="Email address"
                   id="email"
-                  required
-                />
+                  required />
                 <label for="email" class="form__label">
                   Email address
                 </label>
@@ -41,8 +42,7 @@ function Register() {
                   class="form__input"
                   placeholder="Password"
                   id="password"
-                  required
-                />
+                  required />
                 <label for="password" class="form__label">
                   Password
                 </label>
@@ -54,8 +54,7 @@ function Register() {
                   class="form__input"
                   placeholder="Confirm Password"
                   id="confirmPassword"
-                  required
-                />
+                  required />
                 <label for="Confirm Password" class="form__label">
                   Confirm Password
                 </label>
@@ -68,7 +67,7 @@ function Register() {
           </div>
         </div>
       </div>
-    </section>
+    </section><Footer /></>
   );
 }
 
