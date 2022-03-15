@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="navigation">
@@ -16,29 +17,30 @@ function Footer() {
       <nav className="navigation__nav">
         <ul className="navigation__list">
           <li className="navigation__item">
-            <a href="#" className="navigation__link">
-              <span>01</span>About Travel Story
-            </a>
+            <Link to={"/about"} className="navigation__link">
+              <span>01</span>About Travel Stories
+            </Link>
+          </li>
+
+          <li className="navigation__item">
+            <Link to={"/popular"} className="navigation__link">
+              <span>02</span>Popular Stories
+            </Link>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link">
-              <span>02</span>Your benfits
-            </a>
+            <Link to={"/register"} className="navigation__link">
+              <span>03</span>Register
+            </Link>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link">
-              <span>03</span>Popular Stories
-            </a>
+            <Link to={"/login"} className="navigation__link">
+              <span>04</span>Login
+            </Link>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link">
-              <span>04</span> Register
-            </a>
-          </li>
-          <li className="navigation__item">
-            <a href="#" className="navigation__link">
-              <span>05</span> Explore
-            </a>
+            <Link to={"/Explore"} className="navigation__link">
+              <span>05</span>Explore
+            </Link>
           </li>
         </ul>
       </nav>

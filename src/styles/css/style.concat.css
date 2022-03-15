@@ -1547,10 +1547,17 @@ body {
       padding: 10rem 0; } }
 
 .section-book {
-  padding: 15rem;
+  padding: 5rem;
   background-image: linear-gradient(to right bottom, #0d47e9, #fbff06); }
   @media only screen and (max-width: 56.25em) {
     .section-book {
+      padding: 10rem 0; } }
+
+.section-book-login {
+  padding: 10rem;
+  background-image: linear-gradient(to right bottom, #0d47e9, #fbff06); }
+  @media only screen and (max-width: 56.25em) {
+    .section-book-login {
       padding: 10rem 0; } }
 
 .book {

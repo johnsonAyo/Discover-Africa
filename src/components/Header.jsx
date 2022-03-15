@@ -1,4 +1,5 @@
 import Navigation from "./../components/Navigation";
+import { Routes, Route, useParams, Link } from "react-router-dom";
 import Logo from "./../components/Logo";
 function Header() {
   return (
@@ -17,9 +18,9 @@ function Header() {
             </span>
           </h1>
 
-          <a href="#section-tours" className="btn btn--white btn--animated">
+          <Link to={"/register"} className="btn btn--white btn--animated">
             Post Your Travel Stories
-          </a>
+          </Link>
         </div>
       </header>
     </div>
