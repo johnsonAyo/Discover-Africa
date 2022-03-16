@@ -9,6 +9,8 @@ export default function PopularTour(props: any) {
     card_heading,
     img,
   } = props;
+
+  
   return (
     <div className="col-1-of-3">
       <div className="card">
