@@ -4,7 +4,7 @@ function Footer() {
       <div className="footer__logo-box">
         <picture className="footer__logo">
           <img
-            srcset="img/logo1.png 4x"
+            srcSet="img/logo1.png 4x"
             alt="Full logo"
             src="img/logo1.png"
           />
