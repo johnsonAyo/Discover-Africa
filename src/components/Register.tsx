@@ -1,19 +1,31 @@
-import Footer from "./Footer";
-import Logo from "./Logo";
 import Navigation from "./Navigation";
-
-function Login() {
+import Footer from "./Footer";
+function Register() {
   return (
     <>
-      <section className="section-book-login">
+      <section className="section-book">
         <Navigation />
         <div className="row">
           <div className="book">
             <div className="book__form">
               <form action="#" className="form">
                 <div className="u-margin-bottom-medium">
-                  <h2 className="heading-secondary">Login</h2>
+                  <h2 className="heading-secondary">Register Now</h2>
                 </div>
+
+                <div className="form__group">
+                  <input
+                    type="text"
+                    className="form__input"
+                    placeholder="Full name"
+                    id="name"
+                    required
+                  />
+                  <label htmlFor="name" className="form__label">
+                    Full name
+                  </label>
+                </div>
+
                 <div className="form__group">
                   <input
                     type="email"
@@ -54,8 +66,8 @@ function Login() {
                 </div>
 
                 <div className="form__group">
-                  <button className="btnreg btn--green">Login &rarr;</button>
-                  <button className="btn btn--green">Go back &rarr;</button>
+                  <button className="btnreg btn--green">Proceed &rarr;</button>
+                  <button className="btn btn--green">Go Back &rarr;</button>
                 </div>
               </form>
             </div>
@@ -67,4 +79,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Register;

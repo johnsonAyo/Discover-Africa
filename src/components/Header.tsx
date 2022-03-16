@@ -1,6 +1,6 @@
-import Navigation from "./../components/Navigation";
+import Navigation from "./Navigation";
 import { Routes, Route, useParams, Link } from "react-router-dom";
-import Logo from "./../components/Logo";
+import Logo from "./Logo";
 function Header() {
   return (
     <div>
