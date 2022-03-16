@@ -1,5 +1,5 @@
 import Popup from "../Popup";
-import popularToursData from "../../data/popularTourdata";
+import  popularToursData  from "../../data/popularTourdata";
 import PopularTour from "./Tour";
 import { Link } from "react-router-dom";
 function Tours() {

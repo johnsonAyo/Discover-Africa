@@ -11,8 +11,11 @@
     margin-right: 5rem;
     transition: all 0.2s;
     position: relative;
+    top: 2rem;
+    margin-bottom:2rem;
     font-size: 1.5rem;
   }
+
   &:hover {
     transform: translateY(-0.3rem);
     box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
@@ -111,4 +114,8 @@
     box-shadow: 0 .5rem 1rem rgba($color-black, .15);
     transform: translateY(0);
   }
+}
+
+a {
+  text-decoration-line: none !important;
 }
