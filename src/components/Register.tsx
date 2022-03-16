@@ -1,5 +1,6 @@
 import Navigation from "./Navigation";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 function Register() {
   return (
     <>
@@ -66,8 +67,12 @@ function Register() {
                 </div>
 
                 <div className="form__group">
-                  <button className="btnreg btn--green">Proceed &rarr;</button>
-                  <button className="btn btn--green">Go Back &rarr;</button>
+                  <button className="btnreg underline btn--green">
+                    <Link to={"/dashboard"}>Proceed &rarr;</Link>
+                  </button>
+                  <button className="btnreg btn--green">
+                    <Link to={"/"} className="underline">Go Back &rarr;</Link>
+                  </button>
                 </div>
               </form>
             </div>

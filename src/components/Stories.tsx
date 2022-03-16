@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Stories() {
   return (
     <section className="section-stories">
@@ -63,9 +65,9 @@ function Stories() {
       </div>
 
       <div className="u-center-text u-margin-top-huge">
-        <a href="#" className="btn-text">
+        <Link to={"/dashboard"} className="btn-text">
           Read all stories &rarr;
-        </a>
+        </Link>
       </div>
     </section>
   );
