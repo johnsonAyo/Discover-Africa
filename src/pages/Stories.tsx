@@ -1,12 +1,12 @@
+import StoriesComponent from "../components/Dashboard/StoriesComponent";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
-import Tours from "../components/popularTours/Tours";
 
 function Stories() {
   return (
     <div>
       <Nav />
-      <Tours />
+      <StoriesComponent />
       <Footer />
     </div>
   );
