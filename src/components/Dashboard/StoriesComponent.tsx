@@ -1,19 +1,21 @@
-
-import  {popularTours}  from "../../data/popularTourdata";
-import PopularTour from "./Tour";
+import { stories } from "../../data/popularTourdata";
+import Story from "./StoryComponent";
 import { Link } from "react-router-dom";
-function Tours() {
-  const tourElement = popularTours.map((popularTour: any) => {
-    return <PopularTour {...popularTour} />;
+
+function Stories() {
+  const storyElement = stories.map((story) => {
+    return <Story {...story} />;
     // <PopularTour popularTour={popularTour.id} />;
   });
   return (
     <>
       <section className="section-tours" id="section-tours">
         <div className="u-center-text u-margin-bottom-big">
-          <h2 className="heading-secondary">Most popular Travel stories</h2>
+          <h2 className="heading-secondary">
+            List of all public Vacation Stories
+          </h2>
         </div>
-        <div className="row">{tourElement}</div>
+        <div className="grid">{storyElement}</div>{" "}
         <div className="u-center-text u-margin-top-huge">
           <Link to={"/register"} className="btn btn--green">
             Discover all travel Stories
@@ -24,4 +26,4 @@ function Tours() {
   );
 }
 
-export default Tours;
+export default Stories;
