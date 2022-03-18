@@ -54,8 +54,8 @@ function Login() {
                 </div>
 
                 <div className="form__group">
-                  <button className="btnreg btn--green">Login &rarr;</button>
-                  <button className="btnreg btn--green">Go back &rarr;</button>
+                  <button className="btnreg btn--white">Login &rarr;</button>
+                  <button className="btnreg btn--white">Go back &rarr;</button>
                 </div>
               </form>
             </div>

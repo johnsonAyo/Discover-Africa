@@ -12,7 +12,7 @@
     transition: all 0.2s;
     position: relative;
     top: 2rem;
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
     font-size: 1.5rem;
   }
 
@@ -50,6 +50,24 @@
 
     &::after {
       background-color: $color-white-dark;
+    }
+  }
+
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
+  &--blue {
+    background-color: $color-grey-dark-2;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-grey-dark-2;
     }
   }
 
