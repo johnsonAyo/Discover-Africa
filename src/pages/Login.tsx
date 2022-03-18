@@ -1,32 +1,19 @@
-import Navigation from "./Navigation";
-import Footer from "./Footer";
-import { Link } from "react-router-dom";
-function Register() {
+import Footer from "../components/Footer";
+import Logo from "../components/Logo";
+import Navigation from "../components/Navigation";
+
+function Login() {
   return (
     <>
-      <section className="section-book">
+      <section className="section-book-login">
         <Navigation />
         <div className="row">
           <div className="book">
             <div className="book__form">
               <form action="#" className="form">
                 <div className="u-margin-bottom-medium">
-                  <h2 className="heading-secondary">Register Now</h2>
+                  <h2 className="heading-secondary">Login</h2>
                 </div>
-
-                <div className="form__group">
-                  <input
-                    type="text"
-                    className="form__input"
-                    placeholder="Full name"
-                    id="name"
-                    required
-                  />
-                  <label htmlFor="name" className="form__label">
-                    Full name
-                  </label>
-                </div>
-
                 <div className="form__group">
                   <input
                     type="email"
@@ -67,12 +54,8 @@ function Register() {
                 </div>
 
                 <div className="form__group">
-                  <button className="btnreg underline btn--green">
-                    <Link to={"/dashboard"}>Proceed &rarr;</Link>
-                  </button>
-                  <button className="btnreg btn--green">
-                    <Link to={"/"} className="underline">Go Back &rarr;</Link>
-                  </button>
+                  <button className="btnreg btn--green">Login &rarr;</button>
+                  <button className="btnreg btn--green">Go back &rarr;</button>
                 </div>
               </form>
             </div>
@@ -84,4 +67,4 @@ function Register() {
   );
 }
 
-export default Register;
+export default Login;

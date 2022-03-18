@@ -47,7 +47,7 @@ const stories = [
   },
   {
     id: 2,
-    img: "3",
+    img: "2",
     card_heading: "The Sea Explorer",
     sub_heading: "Daniel israel",
     card__text:
@@ -69,7 +69,7 @@ const stories = [
   },
   {
     id: 4,
-    img: "4",
+    img: "1",
     card_heading: "The City Wanderer",
     sub_heading: "Otemade ololade",
     card__text:
@@ -80,7 +80,7 @@ const stories = [
   },
   {
     id: 5,
-    img: "5",
+    img: "2",
     card_heading: "The Park Camper",
     sub_heading: "Mohammed Salah",
     card__text:
@@ -91,7 +91,7 @@ const stories = [
   },
   {
     id: 6,
-    img: "5",
+    img: "3",
     card_heading: "The Sports Lover",
     sub_heading: "Omolade Akintola",
     card__text:
