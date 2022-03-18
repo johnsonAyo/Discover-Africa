@@ -1,5 +1,5 @@
+import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
-import Logo from "../components/Logo";
 import Navigation from "../components/Navigation";
 
 function Login() {
@@ -54,8 +54,12 @@ function Login() {
                 </div>
 
                 <div className="form__group">
-                  <button className="btnreg btn--white">Login &rarr;</button>
-                  <button className="btnreg btn--white">Go back &rarr;</button>
+                  <button className="btnreg btn--white">
+                    <Link to={"/"}>Go Back &rarr;</Link>
+                  </button>
+                  <button className="btnreg btn--white">
+                    <Link to={"/Public"}>Proceed&rarr;</Link>
+                  </button>
                 </div>
               </form>
             </div>
