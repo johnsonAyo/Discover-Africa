@@ -17,13 +17,13 @@ function Footer() {
       <nav className="navigation__nav">
         <ul className="navigation__list">
           <li className="navigation__item">
-            <Link to={"/about"} className="navigation__link">
-              <span>01</span>About Travel Stories
+            <Link to={"/public"} className="navigation__link">
+              <span>01</span>Public Travel Blogs
             </Link>
           </li>
 
           <li className="navigation__item">
-            <Link to={"/popular"} className="navigation__link">
+            <Link to={"/"} className="navigation__link">
               <span>02</span>Popular Stories
             </Link>
           </li>
@@ -38,7 +38,7 @@ function Footer() {
             </Link>
           </li>
           <li className="navigation__item">
-            <Link to={"/Explore"} className="navigation__link">
+            <Link to={"/"} className="navigation__link">
               <span>05</span>Explore
             </Link>
           </li>

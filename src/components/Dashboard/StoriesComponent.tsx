@@ -12,13 +12,13 @@ function Stories() {
       <section className="section-tour" id="section-tours">
         <div className="u-center-text u-margin-bottom-big">
           <h2 className="heading-secondary">
-            List of all public Vacation Stories
+           ALL public Vacation Stories
           </h2>
         </div>
         <div className="grid">{storyElement}</div>{" "}
         <div className="u-center-text u-margin-top-huge">
           <Link to={"/register"} className="btn btn--green">
-            Discover all travel Stories
+            Next Page
           </Link>
         </div>
       </section>

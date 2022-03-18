@@ -68,10 +68,10 @@ function Register() {
 
                 <div className="form__group">
                   <button className="btnreg underline btn--white">
-                    <Link to={"/dashboard"}>Proceed &rarr;</Link>
+                    <Link to={"/Public"}>Proceed &rarr;</Link>
                   </button>
                   <button className="btnreg btn--white">
-                    <Link to={"/"} className="underline">Go Back &rarr;</Link>
+                    <Link to={"/"}>Go Back &rarr;</Link>
                   </button>
                 </div>
               </form>

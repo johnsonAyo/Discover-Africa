@@ -63,8 +63,27 @@
 
 
 .grid {
-  margin: 6rem;
+  margin: 3rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 5rem
+  grid-gap: 7rem;
+
+  @include respond(tab-land) {
+    margin: 5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8rem;
+  }
+
+  @include respond(tab-port) {
+    margin: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+  }
+
+  @include respond(tab-port) {
+    margin: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
