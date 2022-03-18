@@ -9,7 +9,7 @@ function Stories() {
   });
   return (
     <>
-      <section className="section-tours" id="section-tours">
+      <section className="section-tour" id="section-tours">
         <div className="u-center-text u-margin-bottom-big">
           <h2 className="heading-secondary">
             List of all public Vacation Stories
