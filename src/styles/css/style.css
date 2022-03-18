@@ -280,7 +280,10 @@ a {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 52rem; }
+  height: 52rem;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
   .card__side {
     height: 52rem;
     transition: all .8s ease;
@@ -370,7 +373,7 @@ a {
   .card__price-value {
     font-size: 6rem;
     font-weight: 100; }
-  @media only screen and (max-width: 56.25em), only screen and (hover: none) {
+  @media only screen and (max-width: 56.25em), only screen {
     .card {
       height: auto;
       border-radius: 3px;
@@ -398,15 +401,6 @@ a {
         margin-bottom: 3rem; }
       .card__price-value {
         font-size: 4rem; } }
-
-.cardd {
-  perspective: 150rem;
-  -moz-perspective: 150rem;
-  position: relative;
-  height: 52rem;
-  animation-name: moveInLeft;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-in; }
 
 .card__detail {
   display: grid;
@@ -853,7 +847,7 @@ a {
   margin: 6rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 5rem; }
+  grid-gap: 10rem; }
 
 .header {
   height: 85vh;
@@ -1196,14 +1190,26 @@ a {
     flex-direction: column; } }
 
 .headerbar__logo img {
-  height: 3.5rem; }
+  height: 6rem; }
 
 @media only screen and (max-width: 62.5em) {
   .headerbar__logo {
     -webkit-box-ordinal-group: 0;
     -ms-flex-order: -1;
     order: -1;
-    margin-bottom: 1.5rem; } }
+    margin-bottom: 1.5rem; }
+  __logo-box {
+    position: absolute;
+    top: 3rem;
+    left: 3rem; }
+  __logo {
+    height: 10rem; }
+  __text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; } }
 
 .navbar {
   display: -webkit-box;
@@ -1441,7 +1447,7 @@ a {
 
 .section-tour {
   background-color: #f7f7f7;
-  padding: 20rem 0 15rem 0;
+  padding: 15rem 0 10rem 0;
   margin-top: -10rem; }
   @media only screen and (max-width: 56.25em) {
     .section-tour {

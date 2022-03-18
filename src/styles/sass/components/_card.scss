@@ -5,6 +5,9 @@
   -moz-perspective: 150rem;
   position: relative;
   height: 52rem;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
 
   &__side {
     height: 52rem; 
@@ -165,7 +168,7 @@
 
   //@include respond(tab-port) {
   @media only screen and (max-width: 56.25em),
-  only screen and (hover: none) {
+  only screen {
 
     height: auto;
     border-radius: 3px;
