@@ -93,7 +93,7 @@ const stories = [
     id: 6,
     img: "3",
     card_heading: "The Sports Lover",
-    sub_heading: "Omolade Akintola",
+    sub_heading: "chukwuka yakson",
     card__text:
       "Surfing, skating, parajumping, rock climbing and more, all in one tour",
     location: "California, USA",

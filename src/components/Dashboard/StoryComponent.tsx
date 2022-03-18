@@ -19,11 +19,9 @@ export default function Story(props: any) {
             {card_heading}
           </span>
         </h4>
-        <div className="card__details">
+        <div className="card__detail">
           <h4 className="card__sub-heading">{sub_heading}</h4>
-          <p className="card__text">
-          {card__text}
-          </p>
+          <p className="card__text">{card__text}</p>
           <div className="card__data">
             <svg className="card__icon">
               <use xlinkHref="img/icons.svg#icon-map-pin"></use>
@@ -50,7 +48,7 @@ export default function Story(props: any) {
           </div>
           <div></div>
           <div>
-            <a href="#" className="btn btn--green btn--small">
+            <a href="#" className="btn btn--animated btn--blue ">
               Details
             </a>
           </div>

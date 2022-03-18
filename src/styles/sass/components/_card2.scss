@@ -5,11 +5,14 @@
   -moz-perspective: 150rem;
   position: relative;
   height: 52rem;
+  animation-name: moveInLeft;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
 
 }
 
 
-.card__details {
+.card__detail {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 1.75rem;
@@ -74,14 +77,4 @@
 
 .card__ratings {
   grid-row: 2 / 3;
-}
-
-.cardd .btn-small,
-.cardd.btn {
-  display: flex;
-  justify-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  background-color: rgb(100, 96, 96);
-  color: rgb(83, 26, 26)
 }
